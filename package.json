@@ -1,0 +1,17 @@
+{
+  "name": "administradortareasnode",
+  "version": "1.0.0",
+  "description": "Aplicación en Node.js para gestionar tareas y usuarios con autenticación, roles y actualizaciones en tiempo real.",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
